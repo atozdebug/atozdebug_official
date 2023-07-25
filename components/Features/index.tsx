@@ -1,6 +1,7 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -11,8 +12,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="We Provide Full Range of Services"
+            paragraph=""
             center
           />
 
@@ -21,6 +22,14 @@ const Features = () => {
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
+        </div>
+        <div className="mt-16 flex justify-center">
+          <Link
+            href="https://github.com/NextJSTemplates/startup-nextjs"
+            className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold dark:bg-primary text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+          >
+            Book Free Consultation &#8594;
+          </Link>
         </div>
       </section>
     </>

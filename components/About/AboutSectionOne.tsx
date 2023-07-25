@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -8,13 +9,16 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
+  const List = ({ text, description }) => (
+    <>
+      <p className="mb-2 flex items-center text-lg font-medium text-body-color">
+        <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+          {checkIcon}
+        </span>
+        {text}
+      </p>
+      <p className="ml-[2.8rem] mb-5 dark:text-[#98b6db] dark:opacity-70 text-dark">{description}</p>
+    </>
   );
 
   return (
@@ -23,9 +27,10 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
+              <h2 className="mb-4 !leading-tight text-[1.3rem] font-bold text-black dark:text-white opacity-50">Crafting Websites that Fuel Results</h2>
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Best Website Design Company in Guwahati"
+                paragraph="ATOZDEBUG is the premier web designing company in Guwahati, setting the industry standard with over 4+ years of unwavering expertise. We have earned a reputation as a trusted and dependable partner, providing top-notch web design solutions to businesses seeking excellence. Our accomplished team of skilled designers, developers, and strategists is driven by a relentless passion for delivering nothing short of exceptional results. Having successfully completed numerous projects, we boast a robust client base spanning both domestic and international markets. Our commitment to excellence is the cornerstone of our success, as evidenced by an impressive 100% client retention rate."
                 mb="44px"
               />
 
@@ -35,20 +40,25 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Affordable Price" description="We are committed to delivering all services at the lowest cost, with an unwavering dedication to ensuring reliability for everyone." />
+                    <List text="High-Quality Guarantee" description="We assure you of unmatched performance and superior quality, distinguishing us as the premier choice in Guwahati - get in touch with us now to experience excellence firsthand." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Free Guidance & Support" description="We offer a complete 100% Money-back guarantee, promising to refund your payment if you are unsatisfied with our services - your satisfaction is our top priority" />
+                    <List text="Money-Back Guarantee" description="We are dedicated to providing guidance and support to all our valued customers, ensuring they feel comfortable asking any questions and resolving any issues they may encounter." />
                   </div>
                 </div>
               </div>
+              <div className="mt-6 inline-block">
+                <Link
+                  href="https://github.com/NextJSTemplates/startup-nextjs"
+                  className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                >
+                  Book Free Consultation
+                </Link>
+              </div>
             </div>
-
             <div className="w-full px-4 lg:w-1/2">
               <div
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
