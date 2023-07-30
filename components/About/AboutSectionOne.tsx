@@ -9,15 +9,15 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text, description }) => (
+  const List = ({ text }) => (
     <>
-      <p className="mb-2 flex items-center text-lg font-medium text-body-color">
+      <p className="mb-6 flex items-center text-lg font-medium text-body-color">
         <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
           {checkIcon}
         </span>
         {text}
       </p>
-      <p className="ml-[2.8rem] mb-5 dark:text-[#98b6db] dark:opacity-70 text-dark">{description}</p>
+      {/* <p className="ml-[2.8rem] mb-5 dark:text-[#98b6db] dark:opacity-70 text-dark">{description}</p> */}
     </>
   );
 
@@ -40,13 +40,13 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Affordable Price" description="We are committed to delivering all services at the lowest cost, with an unwavering dedication to ensuring reliability for everyone." />
-                    <List text="High-Quality Guarantee" description="We assure you of unmatched performance and superior quality, distinguishing us as the premier choice in Guwahati - get in touch with us now to experience excellence firsthand." />
+                    <List text="Affordable Price" />
+                    <List text="High-Quality Guarantee" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Free Guidance & Support" description="We offer a complete 100% Money-back guarantee, promising to refund your payment if you are unsatisfied with our services - your satisfaction is our top priority" />
-                    <List text="Money-Back Guarantee" description="We are dedicated to providing guidance and support to all our valued customers, ensuring they feel comfortable asking any questions and resolving any issues they may encounter." />
+                    <List text="Free Guidance & Support" />
+                    <List text="Money-Back Guarantee" />
                   </div>
                 </div>
               </div>

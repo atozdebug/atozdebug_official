@@ -2,8 +2,10 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
+import ChooseUs from "@/components/ChooseUs";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
+import Countries from "@/components/Countries";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
@@ -22,8 +24,9 @@ export default function Home() {
       <Features />
       <AboutSectionTwo />
       <Video />
-      <Brands />
-      <Features />
+      {/* <Brands /> */}
+      <Countries />
+      <ChooseUs />
       <Testimonials />
       {/* <Pricing /> */}
       {/* <Blog /> */}

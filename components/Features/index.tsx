@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
-import featuresData from "./featuresData";
+import all from "./featuresData";
 import Link from "next/link";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
@@ -17,12 +17,35 @@ const Features = () => {
             paragraph=""
             center
           />
+          <div>
+            <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-5 mb-12">
+              {all.featuresData.map((feature) => (
+                <SingleFeature key={feature.id} feature={feature} />
+              ))}
+            </div>
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))}
+            <h2 className="mt-12 mb-8 text-3xl text-center font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">Artificial Intelligence</h2>
+            <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-5">
+              {all.ArtificialIntelligence.map((feature) => (
+                <SingleFeature key={feature.id} feature={feature} />
+              ))}
+            </div>
+
+            <h2 className="mt-12 mb-8 text-3xl text-center font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">Digital Marketing</h2>
+            <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-5">
+              {all.DigitalMarketing.map((feature) => (
+                <SingleFeature key={feature.id} feature={feature} />
+              ))}
+            </div>
+
+            <h2 className="mt-12 mb-8 text-3xl text-center font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">Graphic Designing</h2>
+            <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-5">
+              {all.GraphicDesigning.map((feature) => (
+                <SingleFeature key={feature.id} feature={feature} />
+              ))}
+            </div>
           </div>
+
         </div>
         <div className="mt-16 flex justify-center">
           <Link
