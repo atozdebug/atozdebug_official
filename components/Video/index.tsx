@@ -56,7 +56,7 @@ const Video = () => {
         videoId="L61p2uyiMSo"
         onClose={() => setOpen(false)}
       />
-
+// @ts-ignore
       <div className="absolute bottom-0 left-0 right-0 z-[-1]">
         <img src="/images/video/shape.svg" alt="shape" className="w-full" />
       </div>

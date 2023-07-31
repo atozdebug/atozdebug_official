@@ -15,7 +15,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white opacity-70">
-                  Guwahati's Top-Rated
+                  Guwahati&apos;s Top-Rated
                 </h1>
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   We are Digital & Technology Solution Company

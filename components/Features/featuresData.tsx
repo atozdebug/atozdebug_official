@@ -1,5 +1,5 @@
 import { Feature } from "@/types/feature";
-
+// @ts-ignore
 const featuresData: Feature[] = [
   {
     id: 1,

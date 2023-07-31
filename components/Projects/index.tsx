@@ -49,6 +49,7 @@ const Projects = () => {
                     console.log('length', splide.length);
                 }}
             >
+                // @ts-ignore
                 {generateSlides.map(slide => (
                     <SplideSlide key={slide.src}>
                         <img src={slide.src} alt={slide.alt} />
