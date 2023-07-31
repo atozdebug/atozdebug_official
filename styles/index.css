@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
 @layer base {
   body {
     font-family: "Inter", sans-serif;

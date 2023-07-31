@@ -6,6 +6,7 @@ import ChooseUs from "@/components/ChooseUs";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Countries from "@/components/Countries";
+import FAQs from "@/components/FAQs";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
@@ -29,7 +30,8 @@ export default function Home() {
       <Countries />
       <ChooseUs />
       <Testimonials />
-      {/* <Projects /> */}
+      <Projects />
+      <FAQs />
       {/* <Pricing /> */}
       {/* <Blog /> */}
       {/* <Contact /> */}
