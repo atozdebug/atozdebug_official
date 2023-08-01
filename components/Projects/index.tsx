@@ -59,7 +59,7 @@ function Projects() {
                 />
             </div>
 
-            <div className='max-w-[700px] h-[800px] w-full m-auto py-16 px-4 mt-[-100px] relative group'>
+            <div className='sm:max-w-[700px] max-w-[500px] h-[600px] sm:h-[800px] w-full m-auto py-16 px-4 mt-[-100px] relative group'>
                 <div
                     style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
                     className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
