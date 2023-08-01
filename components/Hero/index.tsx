@@ -20,10 +20,10 @@ const Hero = () => {
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   We are Digital & Technology Solution Company
                 </h1>
-                <p className="mb-5 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <p className="mb-5 text-base font-medium !leading-relaxed text-[#090e34] dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   We create impactful and user-friendly Websites & Apps that drive Online Business strategies, helping you achieve your business goals.
                 </p>
-                <h3 className="mb-5 font-light">WEB | MOBILE APPS | AI | DEV OPS | DIGITAL MARKETING</h3>
+                <h3 className="mb-5 font-light text-[#090e34] dark:text-white">WEB | MOBILE APPS | AI | DEV OPS | DIGITAL MARKETING</h3>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"

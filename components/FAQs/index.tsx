@@ -21,7 +21,7 @@ const FAQs = () => {
 
     return (
         <>
-            <div className="container bg-[#0c133e] pt-16 rounded-lg">
+            <div className="container dark:bg-[#0c133e] bg-white pt-16 rounded-lg">
                 <SectionTitle
                     title="Frequently Asked Questions"
                     paragraph=""

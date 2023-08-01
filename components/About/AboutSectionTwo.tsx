@@ -35,7 +35,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   01. Requirement gathering
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-[#090e34cb] dark:text-white sm:text-lg sm:leading-relaxed">
                   Once the NDA is signed, our business analysts thoroughly grasp your project, enabling us to craft user journeys that ensure well-informed recommendations tailored to your needs.
                 </p>
               </div>
@@ -43,7 +43,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   02. Design prototype and user testing
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-[#090e34cb] dark:text-white sm:text-lg sm:leading-relaxed">
                   We develop a design prototype to validate the app. The clickable prototypes take 40 to 80 hours, charged at USD 25 to USD 50 per hour. If user testing is successful, we provide a development quote to you.
                 </p>
               </div>
@@ -51,7 +51,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   03. Agile development
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-[#090e34cb] dark:text-white sm:text-lg sm:leading-relaxed">
                   Upon signing the NDA, our coordinators set sprint goals, proceeding with development upon your approval. Expect regular weekly calls to keep you updated on the progress.
                 </p>
               </div>
@@ -59,7 +59,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   04. Launch & support
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-[#090e34cb] dark:text-white sm:text-lg sm:leading-relaxed">
                   We beta release the app, and if all looks good, we launch it. Our team continues to support the app for free for 6 months to deliver a great user experience
                 </p>
               </div>

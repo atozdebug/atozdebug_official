@@ -11,7 +11,7 @@ const checkIcon = (
 const AboutSectionOne = () => {
   const List = ({ text }) => (
     <>
-      <p className="mb-6 flex items-center text-lg font-medium text-body-color">
+      <p className="mb-6 flex items-center text-lg font-medium text-[#090e34] dark:text-white">
         <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
           {checkIcon}
         </span>
@@ -27,7 +27,7 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <h2 className="mb-4 !leading-tight text-[1.3rem] font-bold text-black dark:text-white opacity-50">Crafting Websites that Fuel Results</h2>
+              <h2 className="mb-4 !leading-tight text-[1.3rem] font-bold text-black dark:text-white dark:opacity-50">Crafting Websites that Fuel Results</h2>
               <SectionTitle
                 title="Best Website Design Company in Guwahati"
                 paragraph="ATOZDEBUG is the premier web designing company in Guwahati, setting the industry standard with over 4+ years of unwavering expertise. We have earned a reputation as a trusted and dependable partner, providing top-notch web design solutions to businesses seeking excellence. Our accomplished team of skilled designers, developers, and strategists is driven by a relentless passion for delivering nothing short of exceptional results. Having successfully completed numerous projects, we boast a robust client base spanning both domestic and international markets. Our commitment to excellence is the cornerstone of our success, as evidenced by an impressive 100% client retention rate."

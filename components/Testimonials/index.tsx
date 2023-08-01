@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "landrew1",
+    designation: "United States",
     content:
-      "Our members are so impressed. It&apos;s intuitive. It&apos;s clean. It&apos;s distraction free. If you&apos;re building a community.",
+      "My project is a very highly advanced web app. This Seller was able to seamlessly integrate a never seen, very complex STRIPE functionality. His talent and expertise in resolving intricate problems are truly remarkable. I appreciate his excellent technical skills, work ethics, and exceptional communication abilities. He has proven to be a great collaborator and can adapt to the dynamic requirements of the project. His valuable insights and suggestions around UI design and functionality have been a great asset to achieving the project's goals. His deep understanding of the project's objectives is evident in his work.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "omniotechnology",
+    designation: "Bulgaria",
     content:
-      "Our members are so impressed. It&apos;s intuitive. It&apos;s clean. It&apos;s distraction free. If you&apos;re building a community.",
+      "He was very patient with my questions and requests, which were quite a lot. I am also very satisfied with the end result of our work. Overall, I am very satisfied with the work done, and I would recommend him again.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "liezhaoxie",
+    designation: "Japan",
     content:
-      "Our members are so impressed. It&apos;s intuitive. It&apos;s clean. It&apos;s distraction free. If you&apos;re building a community.",
+      "atozdebug was excellent. He was very helpful and very responsive. We filed many bugs and had many revisions but every time he was patient and made the required changes",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Don't believe us? Check out what they have to say."
           center
         />
 

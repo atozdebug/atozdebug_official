@@ -29,7 +29,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
+                <p className="mb-9 text-base font-medium leading-relaxed text-[#090e34] dark:text-white">
                   AtoZ Debug is a premier website and app development company located in Guwahati, distinguished for delivering cutting-edge products to a diverse clientele, both domestic and international.
                 </p>
 
@@ -112,7 +112,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       About{" "}
@@ -121,7 +121,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Blog{" "}
@@ -130,7 +130,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Support{" "}
@@ -149,7 +149,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Software Development in Guwahati{" "}
@@ -158,7 +158,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Website Development in Guwahati{" "}
@@ -167,7 +167,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Mobile App Development in Guwahati{" "}
@@ -176,7 +176,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       UI/ UX Design in Guwahati{" "}
@@ -185,7 +185,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       AI Development in Guwahati{" "}
@@ -194,7 +194,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Graphics Development in Guwahati{" "}
@@ -218,7 +218,7 @@ const Footer = () => {
                     <a
                       href="/"
                       aria-label="social-link"
-                      className="mr-6 text-[#CED3F6] hover:text-primary"
+                      className="mr-6 text-[#090e34] dark:text-white hover:text-primary"
                     >
                       <svg
                         width="9"
@@ -232,7 +232,7 @@ const Footer = () => {
                     <a
                       href="/"
                       aria-label="social-link"
-                      className="mr-6 text-[#CED3F6] hover:text-primary"
+                      className="mr-6 text-[#090e34] dark:text-white hover:text-primary"
                     >
                       <svg
                         width="19"
@@ -246,7 +246,7 @@ const Footer = () => {
                     <a
                       href="/"
                       aria-label="social-link"
-                      className="mr-6 text-[#CED3F6] hover:text-primary"
+                      className="mr-6 text-[#090e34] dark:text-white hover:text-primary"
                     >
                       <svg
                         width="18"
@@ -260,7 +260,7 @@ const Footer = () => {
                     <a
                       href="/"
                       aria-label="social-link"
-                      className="mr-6 text-[#CED3F6] hover:text-primary"
+                      className="mr-6 text-[#090e34] dark:text-white hover:text-primary"
                     >
                       <svg
                         width="17"
@@ -277,7 +277,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Open Support Ticket{" "}
@@ -286,7 +286,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       Terms of Use{" "}
@@ -295,7 +295,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-[#090e34] dark:text-white hover:text-primary"
                     >
                       {" "}
                       About{" "}
@@ -308,7 +308,7 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text-[#090e34] dark:text-white dark:text-white">
               Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
             </p>
           </div>
